@@ -73,4 +73,100 @@ Database
    │
    ▼
 Result
+## Example-------
+## You write:
 
+SELECT * FROM Students;
+
+─────────────────────────────────────────
+## Database returns:-----
+
+Student ID	Name	     Course
+101   	    Riya	     BCA
+102         Prashant	 B.Tech
+103	        Anjali	    BCA
+
+─────────────────────────────────────────
+## ADVANTAGES OF SQL---------
+
+Easy to understand
+Fast execution
+Handles millions of records
+Standard language
+Supports data security
+Useful for reporting and analytics
+ 
+─────────────────────────────────────────
+## LIMITATIONS OF SQL--------
+
+Cannot create complete applications by itself
+Different databases may have slightly different SQL syntax
+Complex queries can be difficult for beginners
+
+─────────────────────────────────────────
+## IMPORTANT KEYWORDS-------
+
+Term    	   Meaning
+SQL     	   Structured Query Language
+Database	   Collection of related data
+Table	Data   stored in rows and columns
+Row	One      complete record
+Column	     One type of information
+Record	     Another name for a row
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+╔══════════════════════════════════════╗
+📦LECTURE 02: DATABASE, DBMS, & TABLE
+╚══════════════════════════════════════╝
+
+
+1. What is Data?
+
+## Definition
+Data is a collection of raw facts, figures, or information that can be stored and processed.
+Data means any information that we want to save.
+
+
+## Real-Life Example
+Suppose a college stores student details.
+Student ID	Name	  Age	 Course
+101	      Riya	  21	 BCA
+102         Tushar  22	 B.Tech
+103	      Anjali  20	 BCA
+
+All these values together are called Data.
+─────────────────────────────────────────
+## Types of Data
+
+1. Numeric Data
+Example
+100
+2500
+98
+
+─────────────────────────────────────────
+2. Text Data
+Riya
+Delhi
+India
+
+─────────────────────────────────────────
+3. Date Data
+08-09-2003
+15-08-2026
+
+
+4. Boolean Data
+True
+False
+──────────────────────────────────────────────────────────────────────────────
+
+2. What is Information?--------
+
+Definition
+Information is processed data that has meaning.
+
+## Example------
+
+Raw Data
+85
