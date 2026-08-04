@@ -329,3 +329,90 @@ Multi-user support
 Expensive
 Requires training
 Large systems need powerful hardware
+──────────────────────────────────────────────────────────────────────────────
+## 5. What is RDBMS?-------
+
+(Relational Database Management System)
+RDBMS stores data in the form of tables.
+
+The tables are related to each other using keys.
+An RDBMS is a type of DBMS where data is stored in rows and columns, and tables can be connected using relationships.
+
+## Examples of RDBMS---
+PostgreSQL
+MySQL
+Oracle Database
+SQL Server
+
+
+─────────────────────────────────────────
+## Features----
+
+Stores data in tables
+Supports relationships
+Reduces redundancy
+Uses Primary Key and Foreign Key
+Supports SQL
+
+
+──────────────────────────────────────────────────────────────────────────────
+## 6. What is a Table?------
+A table is a collection of related data arranged in rows and columns.
+
+## Example------
+## Employee Table----
+
+Employee_ID	     Name	       Salary	  Department
+   1	           Riya	        45000	   HR
+   2             Rahul	        55000	   IT
+   3	           Amit	        50000	   Finance
+  
+
+─────────────────────────────────────────
+## Row-----
+
+A row represents one complete record.
+
+## Example---
+
+1 | Riya | 45000 | HR
+
+This entire line is one row.
+
+
+─────────────────────────────────────────
+## Column---
+
+A column stores one type of information.
+
+## Example---
+
+Salary
+
+This column stores only salary values.
+
+
+─────────────────────────────────────────
+## Record-----
+
+A record means one row.
+
+
+─────────────────────────────────────────
+## Field-----
+
+A field means one single value.
+
+Example
+
+45000
+
+─────────────────────────────────────────
+## Difference----
+
+Term         	Meaning
+Table       	Collection of rows and columns
+Row	         One complete record
+Column	      One type of information
+Field	         Single value
+Record	       Same as row
