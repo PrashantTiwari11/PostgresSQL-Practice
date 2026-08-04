@@ -170,3 +170,162 @@ Information is processed data that has meaning.
 
 Raw Data
 85
+90
+76
+
+─────────────────────────────────────────
+## Processed Information-------
+
+Average Marks = 83.67
+Highest Marks = 90
+
+Now the data becomes useful, so it is called Information.
+
+─────────────────────────────────────────
+## Difference Between Data and Information------
+
+Data	             Information
+Raw facts	       Processed data
+No meaning alone	 Meaningful
+Input          	 Output
+Example: 85	       Average Marks = 83
+
+──────────────────────────────────────────────────────────────────────────────
+
+3. What is a Database------
+Definition
+
+A Database is an organized collection of related data stored electronically.
+A database is a place where data is stored in an organized manner.
+
+Real-Life Example------
+
+Imagine a hospital.
+Instead of writing patient details in notebooks, the hospital stores all records in a database.
+
+Example
+Patient ID	Name	Disease
+ 1	         Riya	 Fever
+ 2	         Rahul	 Cold
+ 3	          Amit	 Diabetes
+
+This entire collection is called a Database.
+
+─────────────────────────────────────────
+## Characteristics of Database-----
+Organized
+Easy to search
+Secure
+Easy to update
+Reduces duplicate data
+Can store millions of records
+
+─────────────────────────────────────────
+## Advantages------
+
+✅ Fast searching
+
+✅ Better security
+
+✅ Data sharing
+
+✅ Backup possible
+
+✅ Less redundancy
+
+
+──────────────────────────────────────────────────────────────────────────────
+
+4. What is DBMS?-------
+
+(DBMS = Database Management System)
+
+## Definition----
+A DBMS is software used to create, manage, and maintain databases.
+DBMS is software that helps users work with databases.
+Without DBMS, managing millions of records would be very difficult.
+
+## Real-Life Example------
+
+Imagine a library.
+
+Books = Data
+
+Library = Database
+
+Librarian = DBMS
+
+─────────────────────────────────────────
+## The librarian helps you:---
+Find books
+Add books
+Remove books
+Update books
+
+─────────────────────────────────────────
+Similarly,
+
+DBMS helps manage databases.----
+
+## Examples of DBMS-------
+MySQL
+PostgreSQL
+Oracle Database
+SQL Server
+SQLite
+
+─────────────────────────────────────────
+## Functions of DBMS----
+Create Database
+
+## Example----
+College Database
+
+─────────────────────────────────────────
+## Store Data------
+
+Student details
+
+Teacher details
+
+Course details
+
+─────────────────────────────────────────
+## Update Data------
+
+Change student address.
+
+─────────────────────────────────────────
+## Delete Data----
+
+Remove graduated students.
+
+─────────────────────────────────────────
+## Search Data-----
+
+Find students with marks greater than 80.
+
+─────────────────────────────────────────
+## Security------
+
+Only authorized users can access the database.
+
+─────────────────────────────────────────
+## Backup--------
+
+Recover lost data.
+
+─────────────────────────────────────────
+## Advantages of DBMS----
+
+Better security
+Data consistency
+Easy backup
+Faster searching
+Multi-user support
+
+─────────────────────────────────────────
+## Disadvantages-----
+Expensive
+Requires training
+Large systems need powerful hardware
