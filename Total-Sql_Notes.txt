@@ -32,3 +32,45 @@ Student ID	  Name	Course	  Marks
 102	        Tushar   B.Tech 	90
 103	        Anjali 	BCA	   78
 ─────────────────────────────────────────────────────────────────
+# If the principal wants to:--------
+
+Find students who scored more than 80 marks
+Add a new student
+Update a student's marks
+Delete a student's record
+
+## All these tasks can be done using SQL-----
+## Why Do We Use SQL?-----
+
+SQL is used because it makes managing large amounts of data easy.
+
+
+## Uses of SQL-------
+
+Store data
+Search data quickly
+Update information
+Delete unnecessary records
+Generate reports
+Analyze business data
+Features of SQL
+Easy to learn
+Simple English-like commands
+Fast data retrieval
+Works with large databases
+Supports data analysis
+Used in almost every company
+
+─────────────────────────────────────────
+## How SQL Works--------
+User
+   │
+   ▼
+SQL Query
+   │
+   ▼
+Database
+   │
+   ▼
+Result
+
