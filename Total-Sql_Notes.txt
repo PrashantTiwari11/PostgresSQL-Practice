@@ -450,3 +450,122 @@ DML	       Data Manipulation Language      Insert, update, delete records
 DQL	       Data Query Language	       Retrieve data
 DCL	       Data Control Language	       Control user permissions
 TCL	       Transaction Control Language    Manage transactions
+
+──────────────────────────────────────────────────────────────────────────────
+
+## 1. DDL (Data Definition Language)------
+## Definition----
+
+DDL commands are used to create, modify, and delete database objects like databases and tables.
+DDL changes the structure of the database.
+
+─────────────────────────────────────────
+## Commands in DDL------
+CREATE
+ALTER
+DROP
+TRUNCATE
+RENAME (supported by many databases)
+CREATE Command
+Definition
+
+The CREATE command is used to create a new database or a new table.
+
+─────────────────────────────────────────────────
+## Syntax-----
+(Create Database)
+CREATE DATABASE CollegeDB;
+
+## Syntax------ 
+(Create Table)
+CREATE TABLE Students (
+    Student_ID INT,
+    Name VARCHAR(50),
+    Age INT,
+    Course VARCHAR(30)
+);
+
+## Output------
+
+A new table named Students is created.
+
+## Real-Life Example
+
+Suppose a new college starts.------
+
+The first step is to create a table to store student records.
+
+
+─────────────────────────────────────────────────
+## ALTER Command------
+## Definition-----
+
+The ALTER command is used to modify the structure of an existing table.
+
+## Common Uses----
+
+Add a column
+Remove a column
+Rename a column
+Change a data type
+
+## Example 1: Add a Column------
+
+ALTER TABLE Students
+ADD Email VARCHAR(100);
+
+## Result----
+Student_ID	Name	Age	Course	Email
+
+## Example 2: Change Data Type-----
+
+
+─────────────────────────────────────────────────
+## DROP Command--------
+## Definition------
+
+The DROP command permanently deletes a database object.
+
+## Example------
+
+DROP TABLE Students;
+
+## Result-------
+Table deleted
+All records deleted
+Structure deleted
+Cannot be recovered (unless backup exists)
+
+## Real-Life Example------
+
+A company closes permanently and its database is removed.
+
+
+─────────────────────────────────────────────────
+
+## TRUNCATE Command------
+## Definition---------
+
+TRUNCATE removes all records from a table but keeps the table structure.
+
+## Example------
+TRUNCATE TABLE Students;
+
+## Result----
+Before	         After
+Table exists	Table still exists
+Data present	All rows removed
+
+## Real-Life Example------
+
+A school starts a new academic session and clears old student records while keeping the same table.
+
+─────────────────────────────────────────────────
+
+## Difference: (DROP vs TRUNCATE)----------
+
+DROP	                              TRUNCATE
+Deletes table + data	             Deletes only data
+Structure removed	             Structure remains
+Table no longer exists	             Table can still be used
+Used when table is not needed	     Used when only records need to be removed
