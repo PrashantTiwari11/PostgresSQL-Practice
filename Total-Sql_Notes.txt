@@ -438,3 +438,15 @@ Delete a student → DELETE
 View all students → SELECT
 
 All these are SQL commands.
+
+─────────────────────────────────────────
+## Types of SQL Commands-----
+
+####SQL commands are divided into 5 categories:------
+
+Category	Full Form	               Purpose
+DDL	       Data Definition Language	       Create and modify database objects
+DML	       Data Manipulation Language      Insert, update, delete records
+DQL	       Data Query Language	       Retrieve data
+DCL	       Data Control Language	       Control user permissions
+TCL	       Transaction Control Language    Manage transactions
