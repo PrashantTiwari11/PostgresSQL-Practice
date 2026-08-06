@@ -416,3 +416,25 @@ Row	         One complete record
 Column	      One type of information
 Field	         Single value
 Record	       Same as row
+
+╔═══════════════════════════════════════════════════════════════════╗
+      📦 LECTURE 3: SQL Commands (DDL, DML, DQL, DCL & TCL) 
+╚═══════════════════════════════════════════════════════════════════╝
+
+## What are SQL Commands?-------
+Definition------
+
+SQL Commands are instructions used to perform different operations on a database, such as creating tables, inserting data, updating records, deleting data, and controlling transactions.
+SQL commands are the instructions we give to the database to perform a task.
+
+## Real-Life Example-----
+
+Imagine a school database.
+
+Create a new student table → CREATE
+Add a student → INSERT
+Update marks → UPDATE
+Delete a student → DELETE
+View all students → SELECT
+
+All these are SQL commands.
