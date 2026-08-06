@@ -569,3 +569,60 @@ Deletes table + data	             Deletes only data
 Structure removed	             Structure remains
 Table no longer exists	             Table can still be used
 Used when table is not needed	     Used when only records need to be removed
+
+─────────────────────────────────────────────────
+
+## 2. DML (Data Manipulation Language)---------
+## Definition--------
+
+DML commands are used to insert, update, and delete data from tables.
+
+─────────────────────────────────────────────────
+## Commands--------
+
+INSERT
+UPDATE
+DELETE
+
+─────────────────────────────────────────────────
+## INSERT Command--------
+## Definition-------
+
+INSERT is used to add new records into a table.
+
+## Syntax-----
+
+INSERT INTO Students
+(Student_ID, Name, Age, Course)
+VALUES
+(101, 'Riya', 21, 'BCA');
+
+## Result-----
+Student_ID	Name	Age	Course
+101	        Riya	21	BCA
+
+
+─────────────────────────────────────────────────
+
+## UPDATE Command------
+## Definition-------
+
+UPDATE modifies existing records.
+
+## Example-------
+
+UPDATE Students
+SET Course = 'MCA'
+WHERE Student_ID = 101;
+
+## Before------
+
+Student_ID	Course
+101	         BCA
+
+## After-------
+
+Student_ID	Course
+101	         MCA
+
+─────────────────────────────────────────────────
