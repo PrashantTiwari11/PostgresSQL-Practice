@@ -701,3 +701,58 @@ REVOKE SELECT ON Students FROM Rahul;
 Now Rahul can no longer read the Students table.
 
 ─────────────────────────────────────────────────
+
+## 5. TCL (Transaction Control Language)-------
+## What is a Transaction?-------
+
+A transaction is a group of SQL operations treated as a single unit of work.
+
+## Real-Life Example--------
+
+Suppose you transfer ₹5,000 from one bank account to another.
+
+## Steps:------
+Deduct ₹5,000 from Account A.
+Add ₹5,000 to Account B.
+
+If the second step fails, the first step should also be cancelled. This ensures data remains correct.
+
+─────────────────────────────────────────────────
+
+## TCL Commands------
+COMMIT
+ROLLBACK
+SAVEPOINT
+
+─────────────────────────────────────────────────
+
+## COMMIT-------
+## Definition-------
+
+COMMIT permanently saves all changes made during a transaction.
+
+## Example-----
+UPDATE Accounts
+SET Balance = Balance - 5000
+WHERE Account_ID = 101;
+
+COMMIT;
+
+Now the changes are permanently stored.
+
+─────────────────────────────────────────────────
+
+## ROLLBACK----
+## Definition-----
+
+ROLLBACK undoes changes made after the last COMMIT.
+
+## Example----
+UPDATE Students
+SET Course = 'MCA';
+
+ROLLBACK;
+
+The update is cancelled.
+
+─────────────────────────────────────────────────
