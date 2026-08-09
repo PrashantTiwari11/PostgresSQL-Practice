@@ -756,3 +756,15 @@ ROLLBACK;
 The update is cancelled.
 
 ─────────────────────────────────────────────────
+
+## SAVEPOINT------
+## Definition----
+
+SAVEPOINT creates a checkpoint inside a transaction.
+
+## Example-----
+## SAVEPOINT Step1;
+
+If something goes wrong later, you can roll back to this point instead of undoing the entire transaction.
+
+─────────────────────────────────────────────────
