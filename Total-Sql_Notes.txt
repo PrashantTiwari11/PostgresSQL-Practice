@@ -667,3 +667,37 @@ Select Specific Columns
 SELECT Name, Course
 FROM Students;
 
+─────────────────────────────────────────────────
+## 4. DCL (Data Control Language)----
+## Definition------
+
+DCL commands control user access and permissions in a database.
+
+Commands
+GRANT
+REVOKE
+
+─────────────────────────────────────────────────
+
+## GRANT Command------
+
+Used to give permissions to users.
+
+## Example-----
+GRANT SELECT ON Students TO Rahul;
+
+This allows the user Rahul to read data from the Students table.
+
+
+─────────────────────────────────────────────────
+
+## REVOKE Command-----
+
+Used to remove permissions.
+
+## Example-----
+REVOKE SELECT ON Students FROM Rahul;
+
+Now Rahul can no longer read the Students table.
+
+─────────────────────────────────────────────────
