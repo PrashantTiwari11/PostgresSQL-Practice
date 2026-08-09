@@ -768,3 +768,12 @@ SAVEPOINT creates a checkpoint inside a transaction.
 If something goes wrong later, you can roll back to this point instead of undoing the entire transaction.
 
 ─────────────────────────────────────────────────
+
+## Difference: COMMIT vs ROLLBACK-------
+
+COMMIT	                                  ROLLBACK
+Saves changes permanently	          Cancels uncommitted changes
+Cannot be undone	                  Restores previous state
+Used after successful transaction	  Used when an error occurs
+
+─────────────────────────────────────────────────
