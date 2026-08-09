@@ -645,3 +645,25 @@ Only the student with ID 101 is deleted.
 
 ─────────────────────────────────────────────────
 
+## 3. DQL (Data Query Language)----=--
+## Definition-------
+
+DQL is used to retrieve data from the database.
+
+Main Command
+SELECT
+SELECT Command
+
+## Definition------
+SELECT retrieves data from one or more tables.
+
+## Example------
+SELECT * FROM Students;
+
+## Result--------
+
+Displays all columns and all rows.
+Select Specific Columns
+SELECT Name, Course
+FROM Students;
+
