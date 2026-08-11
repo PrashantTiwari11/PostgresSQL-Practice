@@ -827,3 +827,55 @@ to normally age me:
 store hoga.
 
 Age ko text ke form me store karna unnecessary aur problematic ho sakta hai.
+
+3. Main Categories of SQL Data Types
+
+Common categories:
+
+Numeric
+Character/String
+Date & Time
+Boolean
+Binary
+Other database-specific types
+4. Numeric Data Types
+
+Numeric data types numbers store karne ke liye use hote hain.
+
+A. INT
+Definition
+
+INT whole numbers/integer values store karta hai.
+
+Example
+Age INT
+
+Values:
+
+18
+21
+25
+40
+Example Table
+CREATE TABLE Students (
+    Student_ID INT,
+    Age INT
+);
+B. BIGINT
+Definition
+
+BIGINT large integer values store karne ke liye use hota hai.
+
+Example:
+
+Employee_ID BIGINT
+
+Useful when IDs or counts can become very large.
+
+C. SMALLINT
+
+Small-range integer values ke liye use hota hai.
+
+Example:
+
+Age SMALLINT
