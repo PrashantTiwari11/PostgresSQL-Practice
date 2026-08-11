@@ -924,3 +924,15 @@ Important
 FLOAT approximate values ke liye useful hai.
 
 Exact monetary calculations ke liye generally DECIMAL/NUMERIC prefer kiya jata hai.
+
+7. DECIMAL vs FLOAT
+DECIMAL	FLOAT
+Exact/precise decimal representation	Approximate representation
+Financial calculations ke liye better	Scientific/approximate calculations ke liye useful
+Precision important ho to use karein	Large-range approximate numbers ke liye useful
+Interview Question
+
+Q. Why is DECIMAL preferred over FLOAT for money?
+
+Answer:
+Because DECIMAL is designed for exact decimal representation, while FLOAT uses approximate representation and can introduce small rounding differences.
