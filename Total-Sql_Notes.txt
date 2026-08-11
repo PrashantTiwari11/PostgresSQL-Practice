@@ -879,3 +879,48 @@ Small-range integer values ke liye use hota hai.
 Example:
 
 Age SMALLINT
+
+5. DECIMAL / NUMERIC
+Definition
+
+DECIMAL exact decimal values store karta hai.
+
+Ye financial and precise calculations ke liye especially useful hai.
+
+Example
+Salary DECIMAL(10,2)
+
+Yahan:
+
+10 = total maximum digits
+2 = decimal ke baad digits
+
+Examples:
+
+45000.50
+25000.75
+99999.99
+Real-Life Example
+
+Banking:
+
+Account_Balance DECIMAL(12,2)
+6. FLOAT
+Definition
+
+FLOAT approximate decimal numbers store karta hai.
+
+Example:
+
+Temperature FLOAT
+
+Values:
+
+36.5
+37.2
+98.6
+Important
+
+FLOAT approximate values ke liye useful hai.
+
+Exact monetary calculations ke liye generally DECIMAL/NUMERIC prefer kiya jata hai.
