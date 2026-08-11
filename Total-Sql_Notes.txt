@@ -777,3 +777,53 @@ Cannot be undone	                  Restores previous state
 Used after successful transaction	  Used when an error occurs
 
 ─────────────────────────────────────────────────
+
+1. What is a Data Type?
+Definition
+
+A data type defines what kind of value a column can store in a database.
+
+Easy Definition
+
+Data type database ko batata hai ki kisi column me kis type ka data store hoga.
+
+Example
+CREATE TABLE Students (
+    Student_ID INT,
+    Name VARCHAR(50),
+    Age INT,
+    Marks DECIMAL(5,2),
+    Admission_Date DATE
+);
+
+Yahan:
+
+Student_ID → number
+Name → text
+Age → whole number
+Marks → decimal number
+Admission_Date → date
+2. Why are Data Types Important?
+
+Data types important hain because they:
+
+Data ko properly store karte hain
+Invalid values ko prevent karte hain
+Storage ko efficient banate hain
+Calculations ko easy banate hain
+Data accuracy maintain karte hain
+Example
+
+Agar Age ke liye INT use kiya hai:
+
+Age INT
+
+to normally age me:
+
+21
+25
+30
+
+store hoga.
+
+Age ko text ke form me store karna unnecessary aur problematic ho sakta hai.
