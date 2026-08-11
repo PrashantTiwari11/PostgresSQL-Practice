@@ -936,3 +936,193 @@ Q. Why is DECIMAL preferred over FLOAT for money?
 
 Answer:
 Because DECIMAL is designed for exact decimal representation, while FLOAT uses approximate representation and can introduce small rounding differences.
+
+8. Character/String Data Types
+
+Text store karne ke liye character data types use hote hain.
+
+Main types:
+
+CHAR
+VARCHAR
+TEXT
+9. CHAR
+Definition
+
+CHAR(n) fixed-length character string store karta hai.
+
+Example:
+
+Gender CHAR(1)
+
+Possible values:
+
+M
+F
+
+Another example:
+
+Country_Code CHAR(2)
+
+Values:
+
+IN
+US
+UK
+10. VARCHAR
+Definition
+
+VARCHAR(n) variable-length text store karta hai.
+
+Example:
+
+Name VARCHAR(50)
+
+Names ki length different ho sakti hai:
+
+Riya
+Prashant
+Anjali
+11. TEXT
+Definition
+
+TEXT variable-length text store karne ke liye use hota hai, especially when the text length is not conveniently bounded.
+
+Example:
+
+Description TEXT
+
+Useful for:
+
+Comments
+Descriptions
+Notes
+Long text
+12. CHAR vs VARCHAR
+CHAR	VARCHAR
+Fixed length	Variable length
+Fixed-size values ke liye useful	Different-length text ke liye useful
+Example: Country code	Example: Name
+CHAR(2)	VARCHAR(100)
+Easy Example
+
+Agar:
+
+Country_Code CHAR(2)
+
+to:
+
+IN
+US
+UK
+
+Agar:
+
+Name VARCHAR(50)
+
+to:
+
+Riya
+Rahul
+Anjali Sharma
+13. Date & Time Data Types
+
+Date aur time store karne ke liye date/time data types use hote hain.
+
+Common types:
+
+DATE
+TIME
+TIMESTAMP
+14. DATE
+Definition
+
+DATE date store karta hai.
+
+Example:
+
+Date_of_Birth DATE
+
+Value:
+
+2003-09-08
+
+PostgreSQL me standard format generally:
+
+YYYY-MM-DD
+15. TIME
+Definition
+
+TIME time store karta hai.
+
+Example:
+
+Login_Time TIME
+
+Value:
+
+10:30:00
+16. TIMESTAMP
+Definition
+
+TIMESTAMP date + time dono store karta hai.
+
+Example:
+
+Created_At TIMESTAMP
+
+Value:
+
+2026-08-11 22:30:00
+17. DATE vs TIMESTAMP
+DATE	TIMESTAMP
+Only date	Date + time
+2026-08-11	2026-08-11 22:30:00
+DOB ke liye useful	Transaction time ke liye useful
+Real-Life Example
+
+Student:
+
+Date_of_Birth DATE
+
+Online order:
+
+Order_Time TIMESTAMP
+18. BOOLEAN
+Definition
+
+BOOLEAN logical values store karta hai:
+
+TRUE
+FALSE
+
+Example:
+
+Is_Active BOOLEAN
+
+Values:
+
+TRUE
+FALSE
+Real-Life Example
+
+Employee active hai ya nahi:
+
+Is_Active = TRUE
+19. SQL Table Example Using Different Data Types
+CREATE TABLE Employees (
+    Employee_ID INT,
+    Employee_Name VARCHAR(100),
+    Age INT,
+    Salary DECIMAL(10,2),
+    Joining_Date DATE,
+    Login_Time TIME,
+    Created_At TIMESTAMP,
+    Is_Active BOOLEAN
+);
+
+Yahan humne multiple data types use kiye.
+
+20. Data Type Choose Kaise Karein?
+
+Column ke data ko dekho aur uske according type select karo.
