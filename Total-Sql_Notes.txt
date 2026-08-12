@@ -1194,7 +1194,68 @@ Student_ID	Email	Name
 102	rahul@gmail.com	Rahul
 
 Possible Candidate Keys:
+7. Alternate Key
+Definition
 
+Candidate keys jo Primary Key ke roop me select nahi ki gayi hain, unhe Alternate Keys kaha jata hai.
+
+Example
+
+Suppose:
+
+Student_ID → Candidate Key
+Email      → Candidate Key
+
+Agar hum choose karein:
+
+Student_ID → Primary Key
+
+to:
+
+Email → Alternate Key
+8. Foreign Key
+Definition
+
+A Foreign Key is a column that references a key, usually a Primary Key, in another table.
+
+Example
+Department Table
+Dept_ID	Department
+1	IT
+2	HR
+3	Finance
+
+Dept_ID → Primary Key
+
+Employee Table
+Employee_ID	Name	Dept_ID
+101	Riya	1
+102	Rahul	2
+103	Amit	1
+
+Employee table ka Dept_ID → Foreign Key
+
+SQL Example
+CREATE TABLE Department (
+    Dept_ID INT PRIMARY KEY,
+    Department_Name VARCHAR(50)
+);
+CREATE TABLE Employee (
+    Employee_ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Dept_ID INT,
+    
+    FOREIGN KEY (Dept_ID)
+    REFERENCES Department(Dept_ID)
+);
+
+Relationship:
+
+Department
+    │
+    │ Dept_ID
+    ↓
+Employee
 Student_ID
 Email
 
