@@ -1126,3 +1126,39 @@ Yahan humne multiple data types use kiye.
 20. Data Type Choose Kaise Karein?
 
 Column ke data ko dekho aur uske according type select karo.
+
+What are Keys in SQL?
+Definition
+
+A Key is a column or combination of columns used to identify records uniquely or establish relationships between tables.
+
+Easy Definition
+
+SQL me Key ek special column/columns hoti hain jo records ko identify karne ya tables ko connect karne me help karti hain.
+
+2. Why are Keys Important?
+
+Keys ka use hota hai:
+
+Records ko uniquely identify karne ke liye
+Duplicate data ko control karne ke liye
+Tables ke beech relationship banane ke liye
+Data integrity maintain karne ke liye
+3. Types of SQL Keys
+
+Important keys:
+
+Super Key
+Candidate Key
+Primary Key
+Alternate Key
+Foreign Key
+Composite Key
+4. Super Key
+Definition
+
+A Super Key is any column or combination of columns that can uniquely identify a record.
+
+Example
+
+Consider:
