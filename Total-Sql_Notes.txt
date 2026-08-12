@@ -1328,3 +1328,7 @@ CREATE TABLE Enrollment (
     Student_ID INT,
     Course_ID INT,
     Enrollment_Date DATE,
+PRIMARY KEY (Student_ID, Course_ID)
+);
+
+Yahan Student_ID + Course_ID = Composite Primary Key.
