@@ -1162,3 +1162,70 @@ A Super Key is any column or combination of columns that can uniquely identify a
 Example
 
 Consider:
+Student_ID	Email	Name
+101	riya@gmail.com	Riya
+102	rahul@gmail.com	Rahul
+
+Possible Super Keys:
+
+Student_ID
+Email
+Student_ID + Name
+Email + Name
+Student_ID + Email
+
+Agar combination record ko uniquely identify kar raha hai, wo Super Key ho sakta hai.
+
+Easy Way
+
+Super Key = Anything that can uniquely identify a row.
+
+5. Candidate Key
+Definition
+
+A Candidate Key is a minimal Super Key that can uniquely identify each record.
+
+"Minimal" ka meaning hai ki usme unnecessary column nahi hona chahiye.
+
+Example:
+
+Student_ID	Email	Name
+101	riya@gmail.com	Riya
+102	rahul@gmail.com	Rahul
+
+Possible Candidate Keys:
+
+Student_ID
+Email
+
+Lekin:
+
+Student_ID + Name
+
+candidate key nahi hai, kyunki Student_ID akela hi unique identification ke liye sufficient hai.
+
+6. Primary Key
+Definition
+
+A Primary Key is the candidate key selected to uniquely identify records in a table.
+
+Example:
+
+CREATE TABLE Students (
+    Student_ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Email VARCHAR(100) UNIQUE
+);
+
+Yahan:
+
+Student_ID → Primary Key
+Email → Candidate/alternate unique identifier
+Properties
+
+Primary Key:
+
+Unique hoti hai
+NULL nahi ho sakti
+Usually one primary key constraint hota hai per table
+Single column ya multiple columns se ban sakti hai
