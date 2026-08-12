@@ -1290,3 +1290,41 @@ Unique hoti hai
 NULL nahi ho sakti
 Usually one primary key constraint hota hai per table
 Single column ya multiple columns se ban sakti hai
+
+9. Composite Key ⭐
+Definition
+
+A Composite Key is a key made up of two or more columns that together uniquely identify a record.
+
+Example
+
+Suppose ek student multiple courses le sakta hai.
+
+Student_ID	Course_ID	Enrollment_Date
+101	501	2026-07-01
+101	502	2026-07-02
+102	501	2026-07-03
+
+Yahan:
+
+Student_ID
+
+alone unique nahi hai.
+
+Aur:
+
+Course_ID
+
+alone bhi unique nahi hai.
+
+Lekin:
+
+Student_ID + Course_ID
+
+together unique hai.
+
+SQL
+CREATE TABLE Enrollment (
+    Student_ID INT,
+    Course_ID INT,
+    Enrollment_Date DATE,
