@@ -6,3 +6,5 @@
 6. What is a composite primary key?
 7. Explain the difference between the WHERE and HAVING clauses
 8. What are SQL joins and what are the differences between INNER, LEFT, RIGHT and FULL joins?
+9. Describe a PRIMARY KEY and how it differs from a UNIQUE key
+10. What is a CTE (Common Table Expression) and when would you use it?
