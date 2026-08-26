@@ -11,3 +11,4 @@
 11. Explain normalization and briefly describe the different normal forms
 12. What is the difference between UNION and UNION ALL?
 13. How do clustered and non‑clustered indexes differ ?
+14. How do you perform pattern matching in SQL ?
