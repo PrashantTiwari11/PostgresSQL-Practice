@@ -12,3 +12,4 @@
 12. What is the difference between UNION and UNION ALL?
 13. How do clustered and non‑clustered indexes differ ?
 14. How do you perform pattern matching in SQL ?
+15. How would you calculate the running total of sales for each product?
